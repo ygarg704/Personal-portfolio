@@ -58,7 +58,7 @@ body{
 .dp{
 	width: 200px;
 	height: 200px;
-	padding-top: 200px;
+	padding-top: 150px;
 	padding-bottom: 98px;
 	margin-left: auto;
 	vertical-align: center;
@@ -169,8 +169,8 @@ p{
 .skill{
 	padding-top: 50px;
 	padding-bottom: 40px;
-	padding-left: 25vh;
-	padding-right: 25vh;
+	padding-left: 80px;
+	padding-right: 80px;
 	font-family: 'Merriweather', serif;
 	letter-spacing: 2px;
 	font-size: 15px;
@@ -179,8 +179,8 @@ p{
 
 .skill2{
 	padding-bottom: 40px;
-	padding-left: 25vh;
-	padding-right: 25vh;
+	padding-left: 80px;
+	padding-right: 80px;
 	font-family: 'Merriweather', serif;
 	letter-spacing: 2px;
 	font-size: 15px;
@@ -190,8 +190,8 @@ p{
 .skill3{
 
 	padding-bottom: 40px;
-	padding-left: 25vh;
-	padding-right: 25vh;
+	padding-left: 80px;
+	padding-right: 80px;
 	font-family: 'Merriweather', serif;
 	letter-spacing: 2px;
 	font-size: 15px;
@@ -201,8 +201,8 @@ p{
 .skill4{
 
 	padding-bottom: 150px;
-	padding-left: 25vh;
-	padding-right: 25vh;
+	padding-left: 80px;
+	padding-right: 80px;
 	font-family: 'Merriweather', serif;
 	letter-spacing: 2px;
 	font-size: 15px;
