@@ -87,16 +87,15 @@ p{
 }
 
 .buttons{
-	font-size: 38px;
+	font-size: 27px;
 	text-align: center;
-	padding-bottom: 30px;
 }
 
 #intro{
 	font-family: 'Merriweather', serif;
 	font-size: 20px;
 	text-align: center;
-	padding-bottom: 40px;
+	padding-bottom: 10px;
 	color: #379bde;
 	letter-spacing: 3px;
 }
