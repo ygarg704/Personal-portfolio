@@ -151,7 +151,7 @@ p{
 }
 
 #education{
-	background-color: black;
+	background-image: url(Images/qua-back.jpg);
 	padding-bottom: 100px;
 }
 
@@ -317,9 +317,6 @@ position: absolute;
     -webkit-font-smoothing: antialiased;
 }
 
-html {
-    -webkit-tap-highlight-color: transparent;
-}
 
 #ab {
     -webkit-transition: 0.5s;
