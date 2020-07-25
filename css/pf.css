@@ -307,34 +307,24 @@ position: absolute;
 
 .overflow-hidden { overflow: hidden; }
 
-.scrolltop {
-    position: fixed;
-    bottom: 15px;
-    right: 15px;
-    width: 42px;
-    height: 42px;
-    border-radius: 50%;
-    background: #17a2b8;
-    color: #fff;
-    text-align: center;
-    font-size: 24px;
+.back-to-top {
+  position: fixed;
+  display: none;
+  background: #007bff;
+  color: #fff;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  line-height: 1;
+  font-size: 16px;
+  border-radius: 50%;
+  right: 15px;
+  bottom: 15px;
+  transition: background 0.5s;
+  z-index: 11;
 }
 
-.fa {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-}
-
-
-#ab {
-    -webkit-transition: 0.5s;
-    cursor: pointer;
-}
-
-.scrolltop:hover, .scrolltop:active, .scrolltop:focus {
-  color: #fff !important;
-  opacity: .75;
+.back-to-top i {
+  padding-top: 12px;
+  color: #fff;
 }
