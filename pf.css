@@ -1,4 +1,15 @@
+.parallax {
+  /* The image used *
 
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 body{
 	background: #302f2f; /* fallback for old browsers */
 }
@@ -284,3 +295,38 @@ position: absolute;
 }
 
 .overflow-hidden { overflow: hidden; }
+
+.scrolltop {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #17a2b8;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+html {
+    -webkit-tap-highlight-color: transparent;
+}
+
+#ab {
+    -webkit-transition: 0.5s;
+    cursor: pointer;
+}
+
+.scrolltop:hover, .scrolltop:active, .scrolltop:focus {
+  color: #fff !important;
+  opacity: .75;
+}
