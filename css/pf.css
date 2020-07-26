@@ -15,7 +15,8 @@ body{
 }
 
 #myname{
-	font-family: 'Bangers';
+	font-family: 'Roboto Slab', serif;
+
 }
 
 #a{
@@ -91,10 +92,10 @@ p{
 	padding-top: 90px;
 	padding-bottom: 10px;
 	text-align: center;
-	font-family: 'Bangers';
+	font-family: 'Staatliches';
 	font-size: 50px;
 	word-spacing: 8px;
-	letter-spacing: 5px;
+	letter-spacing: 3px;
 }
 
 .buttons{
@@ -328,3 +329,4 @@ position: absolute;
   padding-top: 12px;
   color: #fff;
 }
+
