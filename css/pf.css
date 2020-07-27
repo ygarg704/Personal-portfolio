@@ -13,7 +13,7 @@
   visibility: hidden;
   opacity: 0;
   transition: .5s ease;
-  background-color: #f7fcff;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .containerr:hover .overlay1 {
@@ -23,7 +23,7 @@
 
 
 .text1 {
-  color: black;
+  color: white;
   position: absolute;
   font-family: 'Merriweather';
   font-size: 3vw;
@@ -147,13 +147,13 @@ p{
 	padding-bottom: 10px;
 	text-align: center;
 	font-family: 'Staatliches';
-	font-size: 50px;
+	font-size: 5vw;
 	word-spacing: 8px;
 	letter-spacing: 3px;
 }
 
 .buttons{
-	font-size: 27px;
+	font-size: 2rem;
 	text-align: center;
 }
 
