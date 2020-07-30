@@ -38,7 +38,7 @@
 .columnss {
   float: left;
   width: 50%;
-  padding: 10px;
+  padding: 5px;
 }
 
 .columnss img {
@@ -234,56 +234,24 @@ p{
 .skill{
 	padding-top: 50px;
 	padding-bottom: 40px;
-	padding-left: 80px;
-	padding-right: 80px;
+	padding-left: 2vw;
 	font-family: 'Merriweather', serif;
 	letter-spacing: 2px;
 	font-size: 15px;
 	line-height: 1.8;
 }
 
-.skill2{
+.skill1{
+
+	padding-top: 50px;
 	padding-bottom: 40px;
-	padding-left: 80px;
-	padding-right: 80px;
+	padding-right: 2vw;
 	font-family: 'Merriweather', serif;
 	letter-spacing: 2px;
 	font-size: 15px;
 	line-height: 1.8;
 }
 
-.skill3{
-
-	padding-bottom: 40px;
-	padding-left: 80px;
-	padding-right: 80px;
-	font-family: 'Merriweather', serif;
-	letter-spacing: 2px;
-	font-size: 15px;
-	line-height: 1.8;
-}
-
-.skill4{
-
-	padding-bottom: 40px;
-	padding-left: 80px;
-	padding-right: 80px;
-	font-family: 'Merriweather', serif;
-	letter-spacing: 2px;
-	font-size: 15px;
-	line-height: 1.8;
-}
-
-.skill5{
-
-	padding-bottom: 150px;
-	padding-left: 80px;
-	padding-right: 80px;
-	font-family: 'Merriweather', serif;
-	letter-spacing: 2px;
-	font-size: 15px;
-	line-height: 1.8;
-}
 
 #projects{
 
