@@ -20,6 +20,7 @@ html{
   opacity: 0;
   transition: .5s ease;
   background-color: rgba(0, 0, 0, 0.8);
+  border-bottom: 7px solid blue;
 }
 
 .containerr:hover .overlay1 {
@@ -32,7 +33,7 @@ html{
   color: white;
   position: absolute;
   font-family: 'Merriweather';
-  font-size: 3vw;
+  font-size: 2rem;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -44,7 +45,7 @@ html{
 .columnss {
 
   float: left;
-  width: 50%;
+  width: 33.3%;
   padding: 5px;
 }
 
