@@ -68,6 +68,13 @@ html{
   }
 }
 
+.rowing:after {
+
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .parallax {
   /* The image used *
 
@@ -250,7 +257,7 @@ p{
 
 .skill{
 	padding-top: 50px;
-	padding-bottom: 40px;
+	padding-bottom: 100px;
 	padding-left: 80px;
 	padding-right: 80px;
 	font-family: 'Merriweather', serif;
