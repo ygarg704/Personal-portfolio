@@ -6,8 +6,6 @@ html{
 	position: relative;
 }
 
-
-
 .overlay1{
   position: absolute;
   top: 0;
@@ -192,7 +190,7 @@ p{
 
 
 #me{
-	padding-top: 135px;
+	padding-top: 155px;
 	padding-bottom: 80px;
 	text-align: center;
 	font-family: 'Josefin Sans';
@@ -243,21 +241,13 @@ p{
 	margin-left: 2rem;
 }
 
-.zoom:hover {
-  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
-
 #school{
 	padding-bottom: 20px;
 }
 
-#skills{
-	background-color: #fafbff;
-}
-
 .skill{
 	padding-top: 50px;
-	padding-bottom: 100px;
+	padding-bottom: 50px;
 	padding-left: 80px;
 	padding-right: 80px;
 	font-family: 'Merriweather', serif;
@@ -349,6 +339,14 @@ p{
 position: absolute;
     top: 0;
     bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.overlay2{
+
+position: absolute;
     left: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.7);
