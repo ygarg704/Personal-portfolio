@@ -19,14 +19,6 @@
 		height: 500px;
 	}
 
-	/* SITEMAIN
-	================================================== */
-	/* Modal */
-	.modal-header {
-		height: 400px;
-	}
-}
-
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px) {
 	/* CUSTOM RESETS
@@ -125,12 +117,6 @@
 	.site-section p.counter {
 		font-size: 80px;
 	}
-
-	/* Modal */
-	.modal-header {
-		height: 350px;
-	}
-}
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
@@ -320,8 +306,7 @@
 	}
 
 	.section-skills,
-	.section-portfolio,
-	.section-form {
+	.section-portfolio {
 	    padding-bottom: 60px;
 	}
 
@@ -436,23 +421,3 @@
 		margin-top: 25px;
 	}
 
-	/* FOOTER
-	================================================== */
-	.site-footer .row {
-		display:flex;
-		flex-direction: column-reverse;	
-	}
-
-	.site-footer .text-right{
-		text-align: center;
-	}
-
-	.site-footer .col-xs-6,
-	.site-footer .col-xs-3 {
-		width: 100%;
-	}
-
-	.site-footer .col-xs-offset-3 {
-		margin-left: 0;
-	}
-}
