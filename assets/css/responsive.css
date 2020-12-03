@@ -19,6 +19,11 @@
 		height: 500px;
 	}
 
+	
+	.hero .particless{
+		height: 100%;
+	}
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px) {
 	/* CUSTOM RESETS
@@ -54,6 +59,11 @@
 
 	.job-title {
 		font-size: 20px;
+	}
+
+
+	.hero .particless{
+		height: 100%;
 	}
 
 	.hero img {
@@ -279,6 +289,11 @@
 
 	/* HERO
 	================================================== */
+	
+	.hero .particless{
+		height: 100%;
+	}
+
 	.hero .col-md-6:first-child {
 		top: 30%;
 	}
@@ -393,6 +408,10 @@
 	================================================== */
 	.hero .visible-xxs + .btn {
 		margin-top: 10px;
+	}
+
+	.hero .particless{
+		height: 100%;
 	}
 
 	/* SITEMAIN

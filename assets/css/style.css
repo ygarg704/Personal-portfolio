@@ -209,12 +209,13 @@ html, body {
 .hero .container {
     position: relative;
     height: 100%;
+    width: 100%;
 }
 
 .hero .col-md-6:first-child {
     position: absolute;
     top: 35%;
-    left: 0;
+    left: 5%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
