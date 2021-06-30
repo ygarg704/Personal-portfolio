@@ -1,230 +1,350 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>Yash Garg | Portfolio</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="keywords" content="global, template, html, sass, jquery">
-  <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Yash Garg</title>
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome
+    ================================================== -->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Stylesheets
+    ================================================== -->
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+
 </head>
 <body>
 
-<!-- notification for small viewports and landscape oriented smartphones -->
-<!--Leftmost Navbar-->
-<div class="perspective effect-rotate-left">
-  <div class="container"><div class="outer-nav--return"></div>
-    <div id="viewport" class="l-viewport">
-      <div class="l-wrapper">
-        <header class="header">
-          <div class="header--nav-toggle">
-            <span></span>
-          </div>
-        </header>
-        <nav class="l-side-nav">
-          <ul class="side-nav">
-            <li class="is-active"><span>Home</span></li>
-            <li><span>Skills</span></li>
-            <li><span>Projects</span></li>
-            <li><span>Education</span></li>
-            <li><span>Contact</span></li>
-          </ul>
-        </nav>
-  <!--Navbar End--------------------------------------------------------->
+    <header id="masthead" class="site-header" data-anchor-target=".hero" data-top="background: rgba(255,255,255,0); padding: 30px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0);" data-top-bottom="background: rgba(0,0,0,1); padding: 10px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.2);">
+        <nav id="primary-navigation" class="site-navigation wow fadeInUp">
+            <div class="container">
+                <div class="navbar-header page-scroll">
 
-        <ul class="l-main-content main-content">
-          
-  <!--Home Page-->
-  
-          <li class="l-section section section--is-active">
-            <div class="intro">
-              <div class="intro--banner">
-                <h1>Yash Garg<br><h4>Data Science | Web/Android Development</h4><br></h1>
-                <button class="cta">Contact
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                  </g>
-                  </svg>
-                  <span class="btn-background"></span>
-                </button>
-                <img src="assets/img/dp.png" alt="Welcome" style="height: 22rem; width: 17rem; z-index: -5;">
-              </div>
-                  <p>Team player with strong research skills and proactive problem solver, aiming to obtain a Data Science position to expand my knowledge and skills.
-                  </p>
+                    <button type="button" class="navbar-toggle collapsed" data-target="#portfolio-perfect-collapse" aria-expanded="false">
+                        <span class="icon-bar" style="background-color: white;"></span>
+                        <span class="icon-bar" style="background-color: white;"></span>
+                        <span class="icon-bar" style="background-color: white;"></span>
+                    </button>
+                   
+                </div><!-- /.navbar-header -->
+
+                <div class="main-menu" id="portfolio-perfect-collapse">
+
+                    <ul class="nav navbar-nav navbar-right wow fadeInUp">
+
+                        <li class="page-scroll"><a href="#hero">Home</a></li>
+                        <li class="page-scroll"><a href="#about">About</a></li>
+                        <li class="page-scroll"><a href="#skills">Skills</a></li>
+                        <li class="page-scroll"><a href="#service">Education</a></li>
+                        <li class="page-scroll"><a href="#portfolio">Projects and Publications</a></li>
+                        <li class="page-scroll"><a href="#contactss">Contact</a></li>
+                        
+                    </ul><!-- /.navbar-nav -->
+
+                </div><!-- /.navbar-collapse -->
+
             </div>
-          </li>
-  <!--HomePage End--------------------------------------------------------->
+        </nav><!-- /.primary-navigation -->
+    </header><!-- /#header -->
 
-    <!--Skills-->
-    <li class="l-section section">
-      <div class="hire">
-        <h2>Skills</h2>
-        <form class="work-request" action="Resume_YG.pdf">
-          <div class="work-request--options">
-            <span class="options-a">
-              <input id="opt-1" type="checkbox" value="app design">
-              <label for="opt-1">
-                Machine Learning
-              </label>
-              <input id="opt-2" type="checkbox" value="graphic design">
-              <label for="opt-2">
-                R & Python
-              </label>
-              <input id="opt-3" type="checkbox" value="motion design">
-              <label for="opt-3">
-                SQL & Firebase
-              </label>
-            </span>
-            <span class="options-b">
-              <input id="opt-4" type="checkbox" value="ux design">
-              <label for="opt-4">
-                MS Excel & Tableau
-              </label>
-              <input id="opt-5" type="checkbox" value="webdesign">
-              <label for="opt-5">
-                Flutter, HTML & CSS
-              </label>
-              <input id="opt-6" type="checkbox" value="marketing">
-              <label for="opt-6">
-                C, C++ & Java
-              </label>
-            </span>
-          </div>
-          <input type="submit" value="Resume -->">
-        </form>
-      </div>
-    </li>
-<!--Skills End ----------------------------->
-  
-  <!--Projects and Publications-->      
-          <li class="l-section section">
-            <div class="work">
-              <h2>Projects <span style="color: blue;">&</span> Publications</h2>
-              <div class="work--lockup">
-                <ul class="slider">
-
-                  <li class="slider--item slider--item-left">
-                    <a href="http://themisfits.xyz/PinkPlus/" target="_blank">
-                      <div class="slider--item-image">
-                        <img src="assets/img/pink.png" alt="Pink+">
-                      </div>
-                      <p class="slider--item-title">Pink+</p>
-                      <p class="slider--item-description">First Place at McKesson Corporation and Girls in Tech Virtual Hack 2020.</p>
-                    </a>
-                  </li>
-
-                  <li class="slider--item slider--item-center">
-                    <a href="https://ieeexplore.ieee.org/document/9377100" target="_blank">
-                      <div class="slider--item-image">
-                        <img src="assets/img/ppr.PNG" alt="Paper">
-                      </div>
-                      <p class="slider--item-title">Predicting Bridge<br>Damage During<br>Earthquake Using<br>Machine Learning<br>Algorithms</p>
-                      <p class="slider--item-description">Presented in the Proceedings of Confluence 2021</p>
-                    </a>
-                  </li>
-
-                  <li class="slider--item slider--item-right">
-                    <a href="http://yashgarg.xyz/international-debt-stats/" target="_blank">
-                      <div class="slider--item-image">
-                        <img src="assets/img/sql.jpg" alt="IDS">
-                      </div>
-                      <p class="slider--item-title">International<br>Debt Statistics</p>
-                      <p class="slider--item-description">Analyzing international debt data collected by The World Bank.</p>
-                    </a>
-                  </li>
-
-                  <li class="slider--item slider--item">
-                    <a href="http://yashgarg.xyz/Predicting-credit-card-approvals/" target="_blank">
-                      <div class="slider--item-image">
-                        <img src="assets/img/2.png" alt="Credit">
-                      </div>
-                      <p class="slider--item-title">Predicting Credit<br>Card Approval</p>
-                      <p class="slider--item-description">Automatic credit card approval predictor using machine learning techniques</p>
-                    </a>
-                  </li>
-                </ul>
-                <div class="slider--prev">
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
-                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
-                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
-                  </g>
-                  </svg>
+    <div id="hero" class="hero">
+    	<div class="overlay1"></div>
+        <div class="container">
+         <div id="particles-js" class="particless">
+            <div class="row">
+                <div class="col-md-6 wow fadeInUp">
+                    <h1>YASH GARG</h1>
+                    <div class="page-scroll">
+                        <p class="job-title">Data Science | Web/Android Development</p>
+                        <a href="https://github.com/ygarg704"><i class="fa fa-github" style="font-size: 30px; color: white; padding-right: 5px;"></i></a>
+                        <a href="https://www.instagram.com/mr.yashgarg"><i class="fa fa-instagram" style="font-size: 30px; color: white; padding-right: 5px;"></i></a>
+                        <a href="https://www.facebook.com/yash.garg.1671/"><i class="fa fa-facebook" style="font-size: 30px; color: white; padding-right: 5px;"></i></a>
+                        <a href="https://www.linkedin.com/in/ygarg704/"><i class="fa fa-linkedin" style="font-size: 30px; color: white; padding-right: 5px;"></i></a>
+                    </div>
                 </div>
-                <div class="slider--next">
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                  </g>
-                  </svg>
+            
+                <div class="col-md-6 text-right">
+                    <img src="assets/img/dp.png" alt="alex-vidal">
                 </div>
-              </div>
+
             </div>
-          </li>
-  <!--Projects and Publications End---------------------------------------------------->
+         </div>
+        </div>
+    </div><!-- /.hero -->
+
+    <main id="main" class="site-main" style="background-color: #f7f8fc">
+
+        <section id="about" class="site-section section-about text-center" style="padding-bottom: 100px; padding-top: 250px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <h2 class="wow fadeInUp">About</h2>
+                        <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="wow fadeInUp">Full Name : Yash Garg</div>
+                        <br>
+                        <div class="wow fadeInUp">Mail : ygarg704@gmail.com</div>
+                        <br>
+                        <div class="wow fadeInUp"> Team : <a href="https://themisfits.xyz/">The Misfits</a></div>
+                        <br>
+                        <br>
+                        <a href="links/Resume_YG.pdf" class="btn btn-fill wow fadeInUp">Resume</a>
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.secton-about -->
+
+        <section class="site-section section-skills"  id="skills" style="padding-top: 250px; padding-bottom: 250px;">
+            <div class="container">
+                <div class="text-center wow fadeInUp">
+                    <h3>My Skills</h3>
+                    <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                </div>
+                <div class="row" style="padding-top: 80px;">
+                    <div class="col-md-4">
+                        <div class="skill wow fadeInUp">
+                            <h4>HTML, CSS, Bootstrap</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="100"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+                        <div class="skill wow fadeInUp">
+                            <h4>Python</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="85"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+                    </div>
+                    <div class="col-md-4">
+                        <div class="skill wow fadeInUp">
+                            <h4>Machine Learning</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="95"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+                        <div class="skill wow fadeInUp">
+                            <h4>Tableau</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="75"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+                    </div>
+                    <div class="col-md-4">
+                        <div class="skill wow fadeInUp">
+                            <h4>C, C++</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="55"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+                        <div class="skill wow fadeInUp">
+                            <h4>SQL</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="85"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.secton-skills -->
+
+        <section id="service" class="site-section section-services overlay text-center" style="background-color: #f7f8fc; padding-bottom: 50px;">
+            <div class="container" style="background-color: #f7f8fc">
+                <div class="row" style="background-color: #f7f8fc">
+                    <div class="col-md-12 wow fadeInUp">
+                        <h3>Education</h3>
+                        <img src="assets/img/lines.svg" class="img-lines" alt="lines" style="padding-bottom: 50px;">
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="service wow fadeInUp">
+                            
+                            <h4>Amity University</h4>
+                            <p>Sector - 125, Noida, Uttar Pradesh, India
+                            	<br>
+                            B.Tech (Computer Science and Engineering)
+                            <br>
+                        2018-2022
+                        <br>
+                    CGPA - <strong>8.07</strong></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="service wow fadeInUp">
+                         
+                            <h4>G.D Goenka Public School</h4>
+                            <p>Sector - 22, Rohini, New Delhi, India
+                            	<br>
+                            High School, 12th grade
+                            <br>
+                        2018 pass out
+                        <br>
+                    Percentage - <strong>87.35 %</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.secton-services -->
+
+        <section id="portfolio" class="site-section section-portfolio">
+            <div class="container">
+                <div class="text-center wow fadeInUp" style="padding-bottom: 50px; padding-top: 100px;">
+                    <h3>Projects and Publications</h3>
+                    <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                </div>
+                <div class="row">
+                	<div class="col-md-6 col-xs-6 wow fadeInUp">
+                        <div class="portfolio-item">
+                            <img src="assets/img/ppr.PNG" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Predicting Bridge Damage During Earthquake Using Machine Learning Algorithms</h4>
+                                <a href="https://ieeexplore.ieee.org/document/9377100"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-6 col-xs-6 wow fadeInUp">
+                        <div class="portfolio-item">
+                            <img src="assets/img/pink.png" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Pink+</h4>
+                                <a href="http://themisfits.xyz/PinkPlus/"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-6 col-xs-6 wow fadeInUp">
+                        <div class="portfolio-item">
+                            <img src="assets/img/1.png" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>International Debt Statistics</h4>
+                                <a href="https://ygarg704.github.io/international-debt-stats/"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-6 col-xs-6 wow fadeInUp">
+                        <div class="portfolio-item">
+                            <img src="assets/img/2.png" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Predicting Credit Card Approval</h4>
+                                <a href="https://ygarg704.github.io/Predicting-credit-card-approvals/"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-6 col-xs-6 wow fadeInUp">
+                        <div class="portfolio-item">
+                            <img src="assets/img/johnsnow.png" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>John Snow Ghost Map</h4>
+                                <a href="https://ygarg704.github.io/JohnSnow-ghost-map/"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-6 col-xs-6 wow fadeInUp">
+                        <div class="portfolio-item">
+                            <img src="assets/img/3.png" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Campus Placement Prediction</h4>
+                                <a href="https://ygarg704.github.io/campus-placement-analysis-and-prediction/"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-6 col-xs-6 wow fadeInUp">
+                        <div class="portfolio-item">
+                            <img src="assets/img/4.png" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>IMDB Movies Genre Classification</h4>
+                                <a href="https://ygarg704.github.io/Movie-Genre-Classification-NLP/"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-6 col-xs-6 wow fadeInUp">
+                        <div class="portfolio-item">
+                            <img src="assets/img/eda.jpg" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>pH Scale Recognition using RGB Color</h4>
+                                <a href="https://medium.com/analytics-vidhya/ph-scale-recognition-by-rgb-color-using-flask-e4707b0b78f7"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-6 col-xs-6 wow fadeInUp">
+                        <div class="portfolio-item">
+                            <img src="assets/img/covid.png" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Covid 19 Trends Dashboard</h4>
+                                <a href="http://covid-19-dashboard.herokuapp.com/"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-6 col-xs-6 wow fadeInUp">
+                        <div class="portfolio-item">
+                            <img src="assets/img/usa.png" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>USA Covid 19 Folium GeoPlot</h4>
+                                <a href="links/plot_data.html"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.secton-portfolio -->
+
+        <section class="site-section section-counters text-center" id="contactss">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 wow fadeInUp">
+                        <p id="infinity" class="counter" data-from="0" data-to="1" data-speed="1000" style="padding-top: 20px;">0</p>
+                        <h4>Seconds on this site!<br>What are you waiting for?<br><br><strong>Open For Data Science Internships</strong></h4>
+                        <br>
+                        <a href="mailto:ygarg704@gmail.com"><button class="btn btn-border wow fadeInUp" type="submit" style="color: black; background-color: white;">Contact Me <span class="glyphicon glyphicon-send"></span></button>
+                        </a>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.section-counters -->
+    </main><!-- /#main -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/skrollr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-progressbar/0.9.0/bootstrap-progressbar.min.js"></script>
+    <script src="assets/js/jquery.countTo.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script>
+         new WOW().init();
+     </script>
   
-  <!--Education-->      
-          <li class="l-section section">
-            <div class="intro">
-              <div class="intro--banner">
-                <br>
-                <br>
-                <h1>Education</h1>
-              </div>
-              <div class="intro--options" >
-                <a>  
-                <h3>Amity University</h3>
-                  <p>Noida, India
-                  <br>B.Tech (Computer Science & Engg.)<br>8.08 GPA</p></a>
-                <a>
-                  <h3>G.D. Goenka Public School</h3>
-                  <p>Rohini, Sector 22, New Delhi, India
-                    <br>XII - 87.35%<br>X - 9.0 GPA
-                  </p>
-                </a>
-              </div>
-            </div>
-          </li>
-  <!--Education End---------------------------------------------------->
-
-  <!--Contact-->
-          <li class="l-section section">
-            <div class="contact">
-              <div class="contact--lockup">
-                <div class="modal">
-                  <div class="modal--information">
-                    <p>CONTACT INFO :</p>
-                    <p>New Delhi, India</p>
-                  </div>
-                  <ul class="modal--options">
-                    <li><a href="https://www.linkedin.com/in/ygarg704/">LinkedIn</a></li>
-                    <li><a href="https://github.com/ygarg704">Github</a></li>
-                    <li><a href="mailto:ygarg704@gmail.com">Mail</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </li>
-  <!--Contact End----------------------------------------------------------->
-
-        </ul>
-      </div>
-    </div>
-  </div>
-  <ul class="outer-nav">
-    <li class="is-active">Home</li>
-    <li>Skills</li>
-    <li>Projects</li>
-    <li>Edu.</li>
-    <li>Contact</li>
-  </ul>
-</div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
-<script src="assets/js/functions-min.js"></script>
 </body>
 </html>
