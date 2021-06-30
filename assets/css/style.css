@@ -429,7 +429,7 @@ html, body {
 .timeline > li > .timeline-content > span{
     display:block;
     margin-bottom:15px;
-    color:#BBB;
+    color:#5e5e5e;
 }
 .timeline > li > .timeline-content > p{
     margin:0;
