@@ -365,7 +365,7 @@ html, body {
     left:50%;
     margin-left:-1px;
     height:100%;
-    width:2px;
+    width:3px;
     background:#BBB;
     border-radius: 0 0 5px 5px;
 }
@@ -414,7 +414,7 @@ html, body {
     -ms-transform:translateX(-50%) rotate(45deg);
     -o-transform:translateX(-50%) rotate(45deg);
     transform:translateX(-50%) rotate(45deg);
-    background:#B7A389;
+    background:#000000;
 }
 .timeline > li > div{
     width:50%;
@@ -505,7 +505,7 @@ html, body {
     }
 }
 
-/*--Resune Section----------------------------------------*/
+/*--Resume Section----------------------------------------*/
 
 
 
